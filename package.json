@@ -1,0 +1,28 @@
+{
+  "name": "libertypie-cf-engine",
+  "version": "1.0.0",
+  "description": "A Cloudflare worker engine for LibertyPie Interface, this enables the Interface to load initial data without having the need to connect to the blockchain as initial data are cached",
+  "main": "index.js",
+  "scripts": {
+    "upload": "npx wrangler",
+    "format": "prettier --write '**/*.{js,css,json,md}'"
+  },
+  "dependencies": {
+    "serverless-cloudflare-workers": "^1.2.0"
+  },
+  "devDependencies": {
+    "@cloudflare/wrangler": "^1.12.3",
+    "prettier": "^1.17.0"
+  },
+  "repository": { 
+    "type": "git",
+    "url": "git+https://github.com/LibertyPie/LibertyPie-CF-Engine.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LibertyPie/LibertyPie-CF-Engine/issues"
+  },
+  "homepage": "https://github.com/LibertyPie/LibertyPie-CF-Engine#readme"
+}
