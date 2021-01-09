@@ -31,6 +31,7 @@ const Path = regExp => req => {
  * conditions present for each request.
  */
 class Router {
+    
     constructor() {
         this.routes = []
     }

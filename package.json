@@ -4,7 +4,8 @@
   "description": "A Cloudflare worker engine for LibertyPie Interface, this enables the Interface to load initial data without having the need to connect to the blockchain as initial data are cached",
   "main": "index.js",
   "scripts": {
-    "upload": "npx wrangler",
+    "push": "npx wrangler publish",
+    "dev": "npx wrangler dev -h cf.libertypie.com",
     "format": "prettier --write '**/*.{js,css,json,md}'"
   },
   "dependencies": {
@@ -14,7 +15,7 @@
     "@cloudflare/wrangler": "^1.12.3",
     "prettier": "^1.17.0"
   },
-  "repository": { 
+  "repository": {
     "type": "git",
     "url": "git+https://github.com/LibertyPie/LibertyPie-CF-Engine.git"
   },
